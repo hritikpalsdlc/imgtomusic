@@ -407,4 +407,4 @@ with gr.Blocks(css=css) as demo:
         concurrency_limit = 4
     )
 
-demo.queue(max_size=16).launch(show_api=False,,share=True)
+demo.queue(max_size=16).launch(show_api=False,share=True)
